@@ -1,0 +1,16 @@
+# Ignore virtual environment
+venv/
+*.pyc
+__pycache__/
+
+# Ignore large files
+data/original/
+
+# Ignore log and output files
+*.log
+*.out
+*.aux
+*.synctex.gz
+
+# Ignore local environment configurations
+.env
