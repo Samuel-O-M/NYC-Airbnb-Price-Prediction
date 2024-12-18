@@ -11,6 +11,17 @@ We employ Random Forest and XGBoost regression models, optimizing their hyperpar
 
 Beyond accuracy, we prioritize model interpretability by engineering intuitive composite features and conducting feature importance analyses. These reveal that room type, neighborhood price indicators, and listing capacity are key drivers of price variation. Our approach not only improves predictive performance but also provides clear insights into the factors influencing Airbnb prices in NYC.
 
+
+## Feature Importance
+
+![XGBoost and Random Forest Feature Importance](writeup/images/xgb_importance.png)
+![XGBoost and Random Forest Feature Importance](writeup/images/rf_importance.png)
+
+## Model Evaluation
+
+![XGBoost and Random Forest Confusion Matrices](writeup/images/xgb_matrix.png)
+![XGBoost and Random Forest Confusion Matrices](writeup/images/rf_matrix.png)
+
 ---
 
 *Samuel Orellana Mateo*  
