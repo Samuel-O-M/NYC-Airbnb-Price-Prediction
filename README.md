@@ -3,6 +3,8 @@
 *Samuel Orellana Mateo*  
 *November 26th, 2024*
 
+A link to the main paper with the full writeup of the project is available [here](https://github.com/Samuel-O-M/NYC-Airbnb-Price-Prediction/blob/master/writeup/paper.pdf).
+
 ## Abstract
 
 This project tackles the prediction of Airbnb rental prices in New York City using a dataset of 15,696 training points and 6,727 prediction instances, encompassing 51 diverse features such as property type, location, host information, and amenities. We begin with comprehensive exploratory data analysis to understand feature distributions, correlations, and data quality. Based on these insights, we perform data processing steps including one-hot and ordinal encoding, date transformations, and custom feature engineering (e.g., neighborhood mean pricing, amenities count, host responsiveness). Principal Component Analysis (PCA) reduces multicollinearity, while outlier handling stabilizes model training.
